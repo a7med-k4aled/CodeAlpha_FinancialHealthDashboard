@@ -19,27 +19,23 @@
 
 ---
 
-## 📑 Table of Contents
-
 - [Project Overview](#-project-overview)
-- [Dataset Overview](#-dataset-overview)
+- [Dataset Overview](#dataset-overview)
 - [Business Objectives](#-business-objectives)
 - [Key KPIs](#-key-kpis)
 - [Analytics Workflow](#-analytics-workflow)
 - [Data Cleaning & Transformation](#-data-cleaning--transformation)
-- [Data Modeling](#-data-modeling)
+- [Data Modeling](#data-modeling)
 - [Dashboard Pages](#-dashboard-pages)
 - [Key Insights](#-key-insights)
 - [Business Recommendations](#-business-recommendations)
 - [Analytical Features](#-analytical-features)
-- [Tools & Skills](#-tools--skills)
+- [Tools & Skills](#tools--skills)
 - [Project Files](#-project-files)
 - [Project Video](#-project-video)
 - [Internship](#-internship)
-- [Author](#-author)
-
+- [Author](#author)
 ---
-
 
 
 ## 📌 Project Overview
@@ -53,6 +49,7 @@ The dashboard provides a comprehensive view of the business across **revenue, pr
 The project follows a complete data analysis workflow, from preparing and transforming the raw data to building an interactive dashboard that supports data-driven business decisions.
 
 ---
+<a name="dataset-overview"></a>
 ## 🗃️ Dataset Overview
 
 The project is based on a large sales and business dataset containing **200,000+ records**.
@@ -179,6 +176,7 @@ The main cleaning steps included:
    - Added a new `Gender` column for customer analysis.
 
 ---
+<a name="data-modeling"></a>
 ## 🗂️ Data Modeling
 
 The data model was designed in Power BI to support financial and business performance analysis.
@@ -208,3 +206,225 @@ Created DAX measures for:
 The model was structured to support interactive filtering, cross-filtering, and time-based analysis across the dashboard pages.
 
 ---
+## 📊 Dashboard Pages
+
+The dashboard consists of **6 interactive pages**, each focused on a specific area of financial and business performance.
+
+### 1. Overview
+
+![Overview Dashboard](images/01-overview.png)
+
+The **Overview** page provides a high-level view of the company's overall business performance.
+
+It brings together the main business KPIs in one place, including:
+
+- **Total Quantity**
+- **Total Profit**
+- **Total Orders**
+- **Total Revenue**
+- **Profit Margin %**
+
+The page also provides interactive analysis across **Year, Quarter, Category, and Region**, allowing users to explore overall performance and identify major business trends.
+
+---
+### 2. Income Statement
+
+![Income Statement Dashboard](images/02-Income%20Statement.png)
+
+The **Income Statement** page focuses on the company's revenue and profitability performance.
+
+The page provides key financial indicators including:
+
+- **Total Revenue**
+- **Total COGS**
+- **Total Gross Profit**
+- **Total Operating Expenses**
+- **Net Profit**
+
+This page helps evaluate how revenue is converted into gross and net profit while monitoring the main costs affecting financial performance.
+
+---
+### 3. Balance Sheet
+
+![Balance Sheet Dashboard](images/03-Balance%20Sheet.png)
+
+The **Balance Sheet** page provides an overview of the company's financial position and key financial health indicators.
+
+The page includes:
+
+- **Total Revenue**
+- **Total COGS**
+- **Net Profit**
+- **Current Ratio**
+- **ROA (Return on Assets)**
+- **ROE (Return on Equity)**
+
+These indicators provide a view of the company's liquidity, profitability, and overall financial health.
+
+---
+### 4. Cash Flow
+
+![Cash Flow Dashboard](images/04-Cash%20Flow.png)
+
+The **Cash Flow** page focuses on the company's cash generation and operating cash flow performance.
+
+The page includes key indicators such as:
+
+- **Revenue**
+- **Total COGS**
+- **Net Profit**
+- **Net Cash Flow**
+
+The page helps evaluate the company's ability to generate positive cash flow from its business operations.
+
+---
+### 5. Business Performance
+
+![Business Performance Dashboard](images/05-Business%20Performance.png)
+
+The **Business Performance** page focuses on customer, product, order, and revenue analysis.
+
+The main KPIs include:
+
+- **Total Orders**
+- **Total Customers**
+- **Total Products**
+- **Total Revenue**
+- **Male Revenue**
+- **Female Revenue**
+
+The page provides a broader view of business performance and helps analyze customer and product contribution to overall revenue.
+
+---
+### 6. Financial Planning
+
+![Financial Planning Dashboard](images/06-Financial%20Planning)
+
+The **Financial Planning** page focuses on future financial performance and revenue forecasting.
+
+The page includes:
+
+- **Total Revenue**
+- **Forecast Revenue**
+- **Forecast Profit**
+- **Net Profit**
+
+Forecasting analysis is used to provide an outlook on expected revenue and profit trends and support future financial planning.
+
+---
+## 💡 Key Insights
+
+The dashboard highlights several important financial and business insights:
+
+- **Electronics** is the highest-performing category in terms of revenue and profit.
+- The overall **Profit Margin is 14.23%**, providing a clear view of the company's profitability.
+- The **Current Ratio is 1.28**, indicating the company's short-term liquidity position.
+- **ROE is 36.67%**, reflecting the return generated on shareholders' equity.
+- The **Top 10 Customers** contribute around **30% of total revenue**.
+- The **Top 10 Products** contribute around **40% of total revenue**.
+- The **West Region** has the highest overall performance.
+- The **South Region** has the lowest overall performance.
+- **Operating Cash Flow is positive**, indicating positive cash generation from operations.
+- **Forecast Revenue** is approximately **10% higher**, indicating expected future growth.
+
+---
+## 💼 Business Recommendations
+
+Based on the dashboard analysis and identified business insights, the following actions can support better financial and business performance:
+
+- **Focus on high-performing categories** such as Electronics to maintain strong revenue and profitability.
+- **Strengthen the South Region's performance** by investigating the factors contributing to its lower results compared with other regions.
+- **Monitor customer concentration**, as the Top 10 Customers contribute around 30% of total revenue.
+- **Prioritize high-performing products** while reviewing lower-performing products to improve the overall product mix.
+- **Monitor profitability and operating expenses** to maintain healthy profit margins.
+- **Use cash flow indicators** to continuously monitor the company's ability to generate positive operating cash flow.
+- **Use revenue and profit forecasts** to support future financial planning and business decisions.
+
+---
+## 🔎 Analytical Features
+
+The dashboard includes several interactive and analytical features to support deeper business analysis:
+
+- **Interactive Slicers** for Year, Quarter, Category, and Region.
+- **Cross-Filtering** between dashboard visuals for interactive exploration.
+- **Drill-Through Analysis** to explore detailed business information.
+- **KPI-Driven Analysis** for monitoring financial and business performance.
+- **Time-Based Analysis** using the Calendar table.
+- **Financial Analysis** covering profitability, liquidity, returns, and cash flow.
+- **Customer & Product Analysis** to identify key contributors to revenue.
+- **Regional Analysis** to compare business performance across regions.
+- **Forecasting** to analyze expected future revenue and profit trends.
+- **Page Navigation** to move between the different dashboard sections.
+
+---
+<a name="tools--skills"></a>
+## 🛠️ Tools & Skills
+
+### Tools
+
+- **Power BI Desktop**
+- **Power Query**
+- **DAX**
+- **Data Modeling**
+- **Data Visualization**
+
+### Skills Applied
+
+- Data Cleaning & Transformation
+- Financial Analysis
+- Business Performance Analysis
+- KPI Development
+- Profitability Analysis
+- Cash Flow Analysis
+- Customer & Product Analysis
+- Regional Analysis
+- Forecasting
+- Interactive Dashboard Design
+
+---
+## 📁 Project Files
+
+The repository contains the main files used to develop and explain the project:
+
+| File | Description |
+| --- | --- |
+| `Financial Health.pbix` | Power BI dashboard containing the complete analysis and interactive report. |
+| `Explain Project.excalidraw` | Visual project explanation covering the analysis workflow, data preparation, modeling, and insights. |
+| `README.md` | Project documentation and overview. |
+| `images/` | Dashboard screenshots used throughout the project documentation. |
+
+---
+## 🎥 Project Video
+
+A video walkthrough of the **Financial Health Dashboard** is available on LinkedIn, demonstrating the project workflow and dashboard analysis.
+
+The video includes the project explanation and an overview of the interactive Power BI dashboard.
+
+🔗 **LinkedIn Project Video:**  
+[PASTE YOUR LINK HERE]
+
+---
+## 🎓 Internship
+
+This project was developed as part of the **CodeAlpha Power BI Internship**.
+
+The project demonstrates practical experience in:
+
+- Power BI Dashboard Development
+- Power Query
+- DAX
+- Data Modeling
+- Financial & Business Analysis
+- Data Visualization
+
+---
+<a name="author"></a>
+## 👨‍💻 Author
+
+**Ahmed Khaled**
+
+Data Analyst | Power BI | SQL | Excel | Data Visualization
+
+🔗 **GitHub:** [a7med-k4aled](https://github.com/a7med-k4aled)
+
+🔗 **LinkedIn:** [Ahmed Khaled](https://www.linkedin.com/in/ahmed-khaled-10a8a6413/)
