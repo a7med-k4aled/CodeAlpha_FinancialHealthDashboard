@@ -401,7 +401,7 @@ A video walkthrough of the **Financial Health Dashboard** is available on Linked
 The video includes the project explanation and an overview of the interactive Power BI dashboard.
 
 🔗 **LinkedIn Project Video:**  
-[PASTE YOUR LINK HERE]
+https://lnkd.in/p/d96eUWjP
 
 ---
 ## 🎓 Internship
@@ -428,3 +428,5 @@ Data Analyst | Power BI | SQL | Excel | Data Visualization
 🔗 **GitHub:** [a7med-k4aled](https://github.com/a7med-k4aled)
 
 🔗 **LinkedIn:** [Ahmed Khaled](https://www.linkedin.com/in/ahmed-khaled-10a8a6413/)
+
+📧 **Gmail:** [eng193a@gmail.com](mailto:eng193a@gmail.com)
